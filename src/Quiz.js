@@ -9,7 +9,7 @@ export default function Quiz () {
     return(
         <div className='quiz'>
             <img src={logo} alt='logo'></img>
-            <h1>Hello, please enter your name</h1>
+            <h1 className = 'helloQuestion'>Hello, please enter your name</h1>
                 <form>
                     <input type='text'></input>
                 </form>
