@@ -24,7 +24,7 @@ code {
   width: 20%;
   margin-top: 2rem;
   border-radius: 75px;
-
+  margin-left: 7rem;
 }
 
 .route {
@@ -51,6 +51,8 @@ img {
 .w_htwo {
   font-family: "Work Sans";
   font-size:2rem;
+  margin-top:1rem;
+  text-align: center;
 }
 
 .start {
@@ -63,6 +65,9 @@ img {
   margin-top: 2rem;
   border-radius: 75px;
 
+}
+.quiz {
+  text-align: center;
 }
 
 
