@@ -11,9 +11,11 @@ function App() {
   //<DatePicker onChange={date => setDate(date)} value={date}/>
   //<Greeting/>
   return (
-    <div className="App">
-      <Greeting/>
-    </div>
+    <Router>
+      <Route exact path='/' component={Greeting}/>
+      <Route exact path='/Quiz' component={Quiz}/>
+    </Router>
+      
   );
 }
 

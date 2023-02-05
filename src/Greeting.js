@@ -8,7 +8,7 @@ export default function Greeting(){
             <h1 className='title'>ExerCycle</h1>
             <h2 className='w_htwo'>Never Give Up the Grind.</h2>
             <h2 className='w_htwo'>Period.</h2>
-            <button className='start'>GET STARTED</button>
+            <Link to='/Quiz' className='start'>GET STARTED</Link>
             <div className='f'>
             <div className='fh'>
                 <h2 className='hthree'>Already have an account?</h2>
