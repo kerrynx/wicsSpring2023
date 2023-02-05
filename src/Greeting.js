@@ -1,5 +1,5 @@
 import logo from './exercyclelogo.png';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 import Quiz from './Quiz';
 export default function Greeting(){
     return (

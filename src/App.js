@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import {useState} from 'react';
 import Greeting from './Greeting';
 import Main from './Main';
@@ -11,7 +11,7 @@ function App() {
   //<DatePicker onChange={date => setDate(date)} value={date}/>
   //<Greeting/>
   return (
-    <Router>
+    <Router className='routes'>
       <Route exact path='/' component={Greeting}/>
       <Route exact path='/Quiz' component={Quiz}/>
     </Router>
