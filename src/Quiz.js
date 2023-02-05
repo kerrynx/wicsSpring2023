@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import logo from './exercyclelogo.png';
 import {Link} from 'react-router-dom';
+import './Quiz.css';
 //start date, how long
 //optional: pain level
 //how often excersise, how intense
@@ -11,9 +12,9 @@ export default function Quiz () {
             <img src={logo} alt='logo'></img>
             <h1 className = 'helloQuestion'>Hello, please enter your name</h1>
                 <form>
-                    <input type='text'></input>
+                    <input type='text' className = 'textbox'></input>
                 </form>
-                <Link to='/Quiz/Hello'>Submit</Link>
+                <Link to='/Quiz/Hello' className = 'submitButton'>Submit</Link>
         </div>
     )
 }
