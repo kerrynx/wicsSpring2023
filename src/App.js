@@ -1,7 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
 import {useState} from 'react';
-import DatePicker from 'react-date-picker'
 import Greeting from './Greeting';
 import Main from './Main';
 function App() {
@@ -11,7 +10,7 @@ function App() {
   //<Greeting/>
   return (
     <div className="App">
-      <Main/>
+      <Greeting/>
     </div>
   );
 }
