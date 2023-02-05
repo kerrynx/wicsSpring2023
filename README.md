@@ -1,3 +1,11 @@
+# wicsSpring2023
+
+## ExerCYCLE
+
+Due to the lack of research, all over the internet there is conflicting arguments on what women should do while on their period. However, in reality, it isn't just the period that women should be worried about—it's the entire menstrual cycle that women should plan around. With ExerCYCLE, women can get ahead of their period and plan their exercise routines around the entire menstrual cycle, learning about each phase of the cycle and what happens with their hormones to affect their physical body. 
+
+We implemented React to create the front-end of the app based on the Figma design that we created. On the backend, we hope to use Palantir's Foundry to analyze the user data to suggest exercise routines week by week based on a user's cycle in order for them to exercise according to their body.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +76,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# wicsSpring2023
