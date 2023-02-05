@@ -14,44 +14,38 @@ code {
     monospace;
 }
 
-
-.start {
-  background-color: #667B68;
-  color: #FCEEE9;
-  font-family: 'Work Sans';
-  font-size: 20px;
-  padding: 27px 12px;
-  width: 20%;
-  margin-top: 2rem;
-  border-radius: 75px;
-  margin-left: 7rem;
-}
-
-.route {
-  font-family: 'Work Sans';
-}
-
-.greet, .quiz {
-  font-family: 'Work Sans';
-  margin-left: 40%;
-}
 img {
-  margin-top: 30px;
+  /* margin-top: 30px;
   max-width: 350px;
   height: 400px;
-  margin-left: 100px;
+  justify-content: center; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  max-width: 350px;
+  margin-top: 30px;
+
 }
 
+.greet {
+  background-color: #dfedd2;
+}
 .title {
   font-family: 'Work Sans';
   color: #667B68;
   font-size:5rem;
+  line-height: 0.5;
+  margin-top: 70px;
+  justify-content: center;
+  text-align: center;
 }
-
 .w_htwo {
+  line-height: 0.2;
   font-family: "Work Sans";
   font-size:2rem;
-  margin-top:1rem;
+  padding: 27px 5px;
+  justify-content: center;
   text-align: center;
 }
 
@@ -64,10 +58,33 @@ img {
   width: 20%;
   margin-top: 2rem;
   border-radius: 75px;
-
-}
-.quiz {
-  text-align: center;
 }
 
+.hthree {
+  line-height: 0.2;
+  font-family: "Work Sans";
+  font-size:2rem;
+  margin-top: 70px;
+  padding-left: 100px;
+}
+
+.f {
+  margin-left: 30%;
+  background-color: #dfedd2;
+}
+.fh, .fl{
+  float:left;
+  background-color: #dfedd2;
+}
+
+.fl{
+  margin-top: 54px;
+  margin-left: 7px;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 2rem;
+  font-family: "Work Sans";
+}
 
