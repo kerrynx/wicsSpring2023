@@ -5,6 +5,7 @@ import {useState} from 'react';
 import Greeting from './Greeting';
 import Main from './Main';
 import Quiz from './Quiz';
+import Hello from './/Hello';
 function App() {
 
   //const [date, setDate] = useState(new Date())
@@ -14,6 +15,7 @@ function App() {
     <Router className='routes'>
       <Route className='route' exact path='/' component={Greeting}/>
       <Route className='route' exact path='/Quiz' component={Quiz}/>
+      <Route className ='route' exact path ='/Quiz/Hello' component = {Hello}/>
     </Router>
   );
 }

@@ -10,11 +10,11 @@ export default function Quiz () {
     return(
         <div className='quiz'>
             <img src={logo} alt='logo'></img>
-            <h1 className = 'helloQuestion'>Hello, please enter your name</h1>
+            <h1 className = 'helloQuestion'>Hello, please enter your name.</h1>
                 <form>
                     <input type='text' className = 'textbox'></input>
                 </form>
-                <Link to='/Quiz/Hello' className = 'submitButton'>Submit</Link>
+                <Link to ='/Quiz/Hello' className = 'submitButton'>Submit</Link>
         </div>
     )
 }
