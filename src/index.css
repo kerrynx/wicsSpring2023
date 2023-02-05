@@ -14,14 +14,26 @@ code {
     monospace;
 }
 
-.route {
-  margin-left: 200px;
+
+.start {
+  background-color: #667B68;
+  color: #FCEEE9;
+  font-family: 'Work Sans';
+  font-size: 20px;
+  padding: 27px 12px;
+  width: 20%;
+  margin-top: 2rem;
+  border-radius: 75px;
+
 }
-.quiz {
+
+.route {
   font-family: 'Work Sans';
 }
-.className {
-  margin:auto;
+
+.greet, .quiz {
+  font-family: 'Work Sans';
+  margin-left: 40%;
 }
 img {
   margin-top: 30px;
@@ -30,18 +42,13 @@ img {
   margin-left: 100px;
 }
 
-.greet {
-  background-color: #dfedd2;
-}
 .title {
   font-family: 'Work Sans';
   color: #667B68;
   font-size:5rem;
-  line-height: 0.5
 }
 
 .w_htwo {
-  line-height: 0.2;
   font-family: "Work Sans";
   font-size:2rem;
 }
@@ -58,31 +65,4 @@ img {
 
 }
 
-.hthree {
-  line-height: 0.2;
-  font-family: "Work Sans";
-  font-size:2rem;
-  margin-top: 70px;
-  padding-left: 100px;
-}
-
-.f {
-  margin-left: 30%;
-  background-color: #dfedd2;
-}
-.fh, .fl{
-  float:left;
-  background-color: #dfedd2;
-}
-
-.fl{
-  margin-top: 54px;
-  margin-left: 7px;
-  margin-bottom: 10px;
-}
-
-a {
-  font-size: 2rem;
-  font-family: "Work Sans";
-}
 
