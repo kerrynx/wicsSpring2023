@@ -1,4 +1,6 @@
 import logo from './exercyclelogo.png';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+import Quiz from './Quiz';
 export default function Greeting(){
     return (
         <div className='greet'>
