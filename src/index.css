@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #dfedd2;
 }
 
 code {
@@ -57,9 +58,11 @@ img {
 
 .f {
   margin-left: 30%;
+  background-color: #dfedd2;
 }
 .fh, .fl{
   float:left;
+  background-color: #dfedd2;
 }
 
 .fl{
