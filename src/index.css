@@ -56,8 +56,13 @@ img {
   font-size: 20px;
   padding: 27px 12px;
   width: 20%;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  text-align: center;
   border-radius: 75px;
+  margin: auto;
+  display: flex;
+  display:grid;
+
 }
 
 .hthree {
