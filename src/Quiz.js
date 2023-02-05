@@ -5,16 +5,27 @@ import {Link} from 'react-router-dom';
 //optional: pain level
 //how often excersise, how intense
 //do you have a routine???
+var user_input_name = "";
+
 export default function Quiz () {
-    return(
+    const [data, getData] = useState(null);
+    function getName(val) {
+        user_input_name = data;
+        
+    }
+
+    return (
         <div className='quiz'>
             <img src={logo} alt='logo'></img>
             <h1 className = 'helloQuestion'>Hello, please enter your name</h1>
                 <form>
-                    <input type='text'></input>
+                    <input type='text' id = 'user_input_name' onChange = {data} ></input>
                 </form>
-                <Link to='/Quiz/Hello'>Submit</Link>
+                <Link to='/Quiz/Hello'>Submit </Link>
         </div>
+
     )
+    
+    Quiz.exports(user_input_name)
 }
 
