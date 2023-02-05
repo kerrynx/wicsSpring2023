@@ -7,14 +7,13 @@ import {Link} from 'react-router-dom';
 //do you have a routine???
 export default function Quiz () {
     return(
-        <div>
+        <div className='quiz'>
             <img src={logo} alt='logo'></img>
             <h1>Hello, please enter your name</h1>
-            <Link to='/Quiz/Hello'>
                 <form>
                     <input type='text'></input>
                 </form>
-            </Link>
+                <Link to='/Quiz/Hello'>Submit</Link>
         </div>
     )
 }

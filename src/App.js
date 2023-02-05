@@ -12,10 +12,9 @@ function App() {
   //<Greeting/>
   return (
     <Router className='routes'>
-      <Route exact path='/' component={Greeting}/>
-      <Route exact path='/Quiz' component={Quiz}/>
+      <Route className='route' exact path='/' component={Greeting}/>
+      <Route className='route' exact path='/Quiz' component={Quiz}/>
     </Router>
-      
   );
 }
 
